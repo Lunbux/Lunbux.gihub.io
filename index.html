@@ -1,142 +1,30 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>我的个人主页</title>
+    <title>欢迎来到我的主页</title>
     <style>
-        /* 这里是CSS样式，用来控制网页的外观 */
         body {
-            font-family: Arial, sans-serif; /* 设置字体 */
-            background-color: #F0F8FF; /* 设置背景颜色 */
-            margin: 0; /* 设置边距为0 */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
         }
+    
         h1 {
-            color: #4682B4; /* 设置标题颜色 */
-            text-align: center; /* 设置标题居中对齐 */
+            color: #333;
+            font-size: 32px;
         }
+    
         p {
-            color: #333333; /* 设置段落颜色 */
-            font-size: 16px; /* 设置段落字体大小 */
-            line-height: 1.5; /* 设置段落行高 */
-        }
-        .container {
-            width: 80%; /* 设置容器宽度为80% */
-            margin: 0 auto; /* 设置容器居中对齐 */
-        }
-        .profile {
-            display: flex; /* 设置为弹性盒子布局 */
-            align-items: center; /* 设置垂直居中对齐 */
-            margin: 20px 0; /* 设置上下边距为20px */
-        }
-        .profile img {
-            width: 200px; /* 设置图片宽度为200px */
-            height: 200px; /* 设置图片高度为200px */
-            border-radius: 50%; /* 设置图片为圆形 */
-            margin-right: 20px; /* 设置图片右边距为20px */
-        }
-        .profile h2 {
-            color: #4682B4; /* 设置副标题颜色 */
-            font-size: 24px; /* 设置副标题字体大小 */
-        }
-        .profile h3 {
-            color: #333333; /* 设置小标题颜色 */
-            font-size: 18px; /* 设置小标题字体大小 */
-        }
-        .profile ul {
-            list-style: none; /* 设置列表无样式 */
-            padding: 0; /* 设置列表内边距为0 */
-        }
-        .profile li {
-            display: inline-block; /* 设置列表项为内联块级元素 */
-            margin: 10px; /* 设置列表项边距为10px */
-        }
-        .profile a {
-            display: block; /* 设置链接为块级元素 */
-            width: 40px; /* 设置链接宽度为40px */
-            height: 40px; /* 设置链接高度为40px */
-            background-size: cover; /* 设置背景图片自动缩放 */
-            border-radius: 50%; /* 设置链接为圆形 */
-        }
-        .profile a.github {
-            background-image: url("github.png"); /* 设置背景图片为github图标 */
-        }
-        .profile a.linkedin {
-            background-image: url("linkedin.png"); /* 设置背景图片为linkedin图标 */
-        }
-        .profile a.twitter {
-            background-image: url("twitter.png"); /* 设置背景图片为twitter图标 */
-        }
-        .profile a.wechat {
-            background-image: url("wechat.png"); /* 设置背景图片为wechat图标 */
-        }
-        .about {
-            margin: 20px 0; /* 设置上下边距为20px */
-        }
-        .about h2 {
-            color: #4682B4; /* 设置副标题颜色 */
-            font-size: 24px; /* 设置副标题字体大小 */
-        }
-        .skills {
-            display: flex; /* 设置为弹性盒子布局 */
-            flex-wrap: wrap; /* 设置换行 */
-            margin: 20px 0; /* 设置上下边距为20px */
-        }
-        .skills h2 {
-            color: #4682B4; /* 设置副标题颜色 */
-            font-size: 24px; /* 设置副标题字体大小 */
-            width: 100%; /* 设置宽度为100% */
-        }
-        .skills div {
-            width: 25%; /* 设置宽度为25% */
-            margin: 10px; /* 设置边距为10px */
-            text-align: center; /* 设置文本居中对齐 */
-        }
-        .skills img {
-            width: 100px; /* 设置图片宽度为100px */
-            height: 100px; /* 设置图片高度为100px */
-            border-radius: 50%; /* 设置图片为圆形 */
-        }
-        .skills p {
-            color: #333333; /* 设置段落颜色 */
-            font-size: 18px; /* 设置段落字体大小 */
-        }
-        .footer {
-            background-color: #4682B4; /* 设置背景颜色 */
-            color: white; /* 设置文本颜色 */
-            padding: 10px; /* 设置内边距为10px */
-            text-align: center; /* 设置文本居中对齐 */
+            color: #666;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>欢迎来到我的个人主页</h1>
-        <div class="profile">
-            < img src="me.jpg" alt="我的照片"> <!-- 这里是我的照片，你可以替换成你自己的 -->
-            <div>
-                <h2>我是张三</h2> <!-- 这里是我的名字，你可以替换成你自己的 -->
-                <h3>我是一名前端开发者</h3> <!-- 这里是我的职业，你可以替换成你自己的 -->
-                <ul>
-                    <li></li> <!-- 这里是我的github链接，你可以替换成你自己的 -->
-                    <li></li> <!-- 这里是我的linkedin链接，你可以替换成你自己的 -->
-                    <li></li> <!-- 这里是我的twitter链接，你可以替换成你自己的 -->
-                    <li></li> <!-- 这里是我的wechat图标，你可以替换成你自己的 -->
-                </ul>
-            </div>
-        </div>
-        <div class="about">
-            <h2>关于我</h2>
-            <p>我是一名热爱编程的前端开发者，我喜欢使用HTML，CSS和JavaScript来制作美观和实用的网页。我有三年的前端开发经验，曾经参与过多个项目的开发和维护。我对前端技术有着浓厚的兴趣，也乐于学习新的知识和技能。我希望能够通过我的网页，为用户提供更好的体验和服务。</p > <!-- 这里是我的自我介绍，你可以替换成你自己的 -->
-        </div>
-        <div class="skills">
-            <h2>我的技能</h2>
-            <div>
-                < img src="html.png" alt="HTML"> <!-- 这里是HTML的图标，你可以替换成你自己的 -->
-                <p>HTML</p >
-            </div>
-            <div>
-                < img src="css.png" alt="CSS"> <!-- 这里是CSS的图标，你可以替换成你自己的 -->
-                <p>CSS</p >
-            </div>
-            <div>
-                < img src="js.png" alt="JavaScript"> <!-- 这里是JavaScript的图标，你可以替换成你
+    <h1>欢迎来到我的主页</h1>
+    <p>这是一个简单的示例主页。</p >
+    <p>你可以在这里添加自己的内容、项目、技能和联系方式。</p >
+</body>
+</html>
+        
